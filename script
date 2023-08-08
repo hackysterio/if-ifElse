@@ -6,7 +6,7 @@ if [ ${AGE} -ge 18 ];
 then 
     echo "You are an adult"
 else
-    echo "you are underage"
+    echo "You are underage"
 fi
 
 
