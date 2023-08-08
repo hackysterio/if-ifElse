@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Before you proceed, what is your age? :"
+read AGE
+
+if [ ${AGE} -ge 18 ];
+then 
+    echo "You are an adult"
+else
+    echo "you are underage"
+fi
+
+
+
+#-ge is the operator for greater than or equal to
